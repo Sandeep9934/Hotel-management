@@ -1,0 +1,268 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    font-size: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+.home {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+}
+
+.home1 {
+    display: none;
+}
+
+.home:hover .home1 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background: green;
+    border-radius: 20px;
+}
+
+.about {
+    position: absolute;
+    left: 12%;
+    top: 30%;
+}
+
+.about1 {
+    display: none;
+}
+
+.about:hover .about1 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background: green;
+    border-radius: 20px;
+}
+
+.service {
+    position: absolute;
+    left: 22%;
+    top: 30%;
+}
+
+.service1 {
+    display: none;
+}
+
+.service:hover .service1 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background: green;
+    border-radius: 20px;
+}
+
+.login {
+    position: absolute;
+    left: 65%;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 10%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.container .message {
+    position: absolute;
+    font-size: 50px;
+    z-index: 2;
+    color: brown;
+    opacity: .6;
+    font-weight: bold;
+    left: 30%
+}
+
+.container .swiper-slide li {
+    position: absolute;
+    z-index: 2;
+    top: 75%;
+    font-size: 30px;
+    color: #21af84;
+    font-weight: bolder;
+    opacity: .8;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer {
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.footer a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.footer .visit {
+    position: absolute;
+    left: 30%;
+    top: 0%;
+}
+
+.footer .contact {
+    position: absolute;
+    left: 55%;
+    top: 0%;
+}
+
+.footer .legel {
+    position: absolute;
+    left: 85%;
+    top: 0%;
+}
+
+.footer li {
+    display: inline;
+    padding: 20px;
+}
+
+.feedback {
+    position: absolute;
+    padding: 10px;
+    top: 25%;
+}
+
+textarea {
+    background-color: #643E46ff;
+    border-radius: 20px;
+    width: 400px;
+    height: 150px;
+}
+
+.location {
+    position: absolute;
+    left: 55%;
+    top: 25%;
+}
+
+.form {
+    position: absolute;
+    z-index: 2;
+    padding: 10px;
+    margin: 10px;
+    top: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.body {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 40px;
+    left: 20%;
+}
+
+.book {
+    position: absolute;
+    top: 40%;
+}
+
+.body label {
+    padding: 10px;
+    margin: 20px;
+}
+
+.personal input {
+    background: none;
+    border: none;
+    opacity: .7;
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.book input[type=date] {
+    width: 140px;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.book select {
+    width: 26%;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.book input[type=number] {
+    width: 15%;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.book button {
+    position: absolute;
+    top: 110%;
+    left: 40%;
+    font-size: 30px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    height: 25%;
+    width: 30%;
+}
